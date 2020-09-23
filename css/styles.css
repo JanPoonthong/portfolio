@@ -1,0 +1,68 @@
+/* Header */
+header {
+  background-color: #A5DBD6;
+  padding-top: 1%;
+  border-bottom: 2pt solid #647584;
+}
+
+/* Header, my info part name and tiny description */
+#info {
+  text-align: center;
+  color: black;
+}
+
+/* Navbar */
+#navbar {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Body part, add background color, etc */
+body {
+  line-height: 1.35em;
+  background-color: #EAF2F5;
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+}
+
+/* Main, the part writing, about me, and blog */
+main {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60ex;
+  display: block;
+}
+
+/* Subtitle for date (Microblog) and about me (Home) */
+#subtitle {
+  border-bottom: 1pt solid #647584;
+  padding-bottom: 1%;
+}
+
+/* Important things I learned */
+.im {
+  color: #268bd2;
+}
+
+/* Color the link */
+a:link {
+  color: #3050E7;
+}
+
+/* Sub-heading part (Name:, Email:, etc */
+dt {
+  font-weight: bold;
+  margin-bottom: .25em;
+  margin-top: .75em;
+}
+
+/* The content of the sub-heading (Jan, Jan Poonthong, etc) */
+dd {
+  margin-left: 1.5em;
+}
