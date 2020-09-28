@@ -75,3 +75,18 @@ dd {
   float: right;
   padding-left: 1em;
 }
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1pt solid #268bd2;
+  padding-top: 7px;
+  text-align: center;
+  font-weight: inherit;
+}
+
+th {
+  background-color: #a2d2f9;
+}
