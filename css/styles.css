@@ -70,3 +70,8 @@ dd {
 #jan-illustration {
   float: right;
 }
+
+#tic-tac-toe {
+  float: right;
+  padding-left: 1em;
+}
