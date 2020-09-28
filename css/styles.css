@@ -67,15 +67,18 @@ dd {
   margin-left: 1.5em;
 }
 
+/* The stech drawing in contact page */
 #jan-illustration {
   float: right;
 }
 
+/* Tic Tac Toe GIF in microblog */
 #tic-tac-toe {
   float: right;
   padding-left: 1em;
 }
 
+/* Table for software page */
 table {
   border-collapse: collapse;
   margin-left: auto;
@@ -100,3 +103,4 @@ th {
   padding-right: 1rem;
   padding-left: 1rem;
 }
+
