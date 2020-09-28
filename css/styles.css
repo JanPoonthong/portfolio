@@ -91,6 +91,10 @@ td, th {
   font-weight: inherit;
 }
 
+td a:link:not(:hover) {
+  text-decoration: none;
+}
+
 th {
   background-color: #C1D9FF;
   padding-right: 1rem;
