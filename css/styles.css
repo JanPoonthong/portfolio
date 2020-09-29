@@ -81,6 +81,10 @@ dd {
 /* Table for software page */
 table {
   border-collapse: collapse;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 40ex;
 }
 
 td, th {
