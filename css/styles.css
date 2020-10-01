@@ -25,9 +25,9 @@ header {
 /* Body part, add background color, etc */
 body {
   line-height: 1.35em;
-  background-color: #EAF2F5;
-  margin: 0;
+  margin: 5px;
   font-family: "Helvetica", sans-serif;
+  background-image: linear-gradient(blue,skyblue);
 }
 
 /* Main, the part writing, about me, and blog */
