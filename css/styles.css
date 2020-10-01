@@ -36,8 +36,8 @@ main {
   margin-right: auto;
   max-width: 60ex;
   display: block;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 /* Subtitle for date (Microblog) and about me (Home) */
