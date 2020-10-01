@@ -40,7 +40,7 @@ main {
 }
 
 /* Subtitle for date (Microblog) and about me (Home) */
-#subtitle {
+.subtitle {
   border-bottom: 1pt solid #647584;
   padding-bottom: 1%;
 }
