@@ -107,3 +107,12 @@ th {
 .anchor {
     text-decoration: none;
 }
+
+.navbar-item{
+      text-decoration: none;
+      color : White;
+}
+
+.navbar-item:hover{
+  color: gray;
+}
