@@ -22,6 +22,14 @@ header {
   justify-content: space-evenly;
 }
 
+.navbar-item{
+  text-decoration: none;
+}
+
+.navbar-item:hover{
+color: #438BFF;
+}
+
 /* Body part, add background color, etc */
 body {
   line-height: 1.35em;
@@ -106,14 +114,7 @@ th {
   padding-left: 1rem;
 }
 
+/* For jumping navigation */
 .anchor {
     text-decoration: none;
-}
-
-.navbar-item{
-      text-decoration: none;
-}
-
-.navbar-item:hover{
-  color: #438BFF;
 }
