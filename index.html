@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <script defer src="https://code.jquery.com/jquery-2.1.4.js" integrity="sha256-siFczlgw4jULnUICcdm9gjQPZkw/YPDqhQ9+nAOScE4=" crossorigin="anonymous"></script>
     <title>Jan Poonthong</title>
     <link href="css/styles.css" rel="stylesheet">
     <link href="images/favicon.png" rel="icon">
@@ -48,5 +49,16 @@
         <li>Electrical Engineering (C++, C, Arduino, Python)</li>
       </dd>
     </main>
+    
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <script>
+        $(window).on("load", function() {
+            $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
+    
   </body>
 </html>
