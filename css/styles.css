@@ -118,11 +118,11 @@ th {
   display: block;
   width: 100%;
   overflow-x: scroll;
-  -webkit-overflow-scrolling: touch;
 }
 
-*, ::after, ::before {
-  box-sizing: border-box;
+.headcol {
+  position: sticky;
+  left: 0px;
 }
 
 /* For jumping navigation */
