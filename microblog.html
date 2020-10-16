@@ -24,49 +24,32 @@
     </header>
 
     <main>
-      <!-- Tic Tac Toe -->
-      <a class="anchor" href="https://janpoonthong.github.io/portfolio/microblog.html#tictactoe"><h2 id="tictactoe" class="subtitle">September 30, 2020</h2></a>
-      <img id="images" src="gif/tic_tac_toe.gif" alt="Tic Tac Toe GIF">
-      <a href="https://github.com/JanPoonthong/python/tree/master/pygame/tic_tac_toe/gui">
+      <!-- Hangman -->
+      <a class="anchor" href="https://janpoonthong.github.io/portfolio/microblog.html#hangman"><h2 id="hangman" class="subtitle">October 15, 2020</h2></a>
+      <img id="images" src="gif/hangman.gif" alt="Hangman GIF" width="270" height="200">
+      <a href="https://github.com/JanPoonthong/python/tree/master/pygame/hangman">
         <img id="images" src="icon/github.jpg" alt="Github icon" width="32" height="32">
       </a>
-      <p>I wrote graphic interface Tic Tac Toe (AI) in Python with Pygame library,
-          and Pygame comes very handly when building games because it has many methods and functions build in.</p>
-      <p>Users can play Tic Tac Toe without any human next to them to play, but instead,
-          they can play with the AI and see if the AI is clever enough to beat the user.</p>
+      <p>Hangman is a guessing letters game player can only guess one letter at a time to solve the word puzzle.</p>
+
+      <h4>Hacks to win:</h4>
+      <ul>
+        <li><strong>Try guessing the vowels</strong>- A good strategy is to guess a few vowels. With five vowels in the English alphabet,
+        you'll quickly see some word patterns.</li>
+        <li><strong>Etaoin shrdlu</strong>- "Etaoin shrdlu" is just a list of the most common letters used in English, so try to guess these letters.</li>
+      </ul>
 
       <h4>What I learned:</h4>
       <ol>
-        <li>I learned how to design grid boxes, and made the boxes visually easy to select for the user to play.</li>
-        <li>I learned about Frame Per Second in games and the process for refreshing every second rather than using CPU to run the game.</li>
-        <li>I learned about <b>os.path.join</b> so that I didn't need to hardcode the path of picture for X and O.</li>
-        <li>I learned about MOUSEDOWN, collision, and track the state of the game.</li>
-        <li><span class="important">The most important thing I learned while building Tic Tac Toe
-            is thinking logically and reasoning up from fundamental truths.</span></li>
+        <li>I learned how to see patterns and not to use duplicate code.</li>
+        <li>I learned <b>if __name__ == "__main__"</b>.</li>
+        <li>I learned the importance of algorithm, for example; WIDTH / 2 - text.get_width() / 2,
+          HEIGHT / 2 - text.get_height() / 2 = Center of screen</li>
+        <li>While building Hangman, I deeply understand using of capitalizing variables.</li>
+        <li><span class="important">The most important thing I learned while building Hangman is, how to have a good design for the game
+          and the importance of laying out the step by step process of building.</span></li>
       </ol>
-
-      <!-- Space Invaders -->
-      <a class="anchor" href="https://janpoonthong.github.io/portfolio/microblog.html#spaceinvaders"><h2 id="spaceinvaders" class="subtitle">October 1, 2020</h2></a>
-      <img id="images" src="gif/space_invader.gif" alt="Space Invader GIF" width="270" height="200">
-      <a href="https://github.com/JanPoonthong/python/tree/master/pygame/space_invaders">
-        <img id="images" src="icon/github.jpg" alt="Github icon" width="32" height="32">
-      </a>
-      <p>Space Invaders is a 1978 arcade game. My version is more modern with a graphics interface and high customizable
-        with background and bullet images, and smooth moving warship.</p>
-      <p>Users can play Space Invaders with just a keyboard. The basic keys are arrows and spaces, the arrows key are for moving,
-        and the spaces key for shooting. Users can see the score on the top left corner, and this game is unwinnable because 
-        of the infinity enemy generator.</p>
-
-      <h4>What I learned:</h4>
-      <ol>
-        <li>I learned how to load background music to play inside the software.</li>
-        <li>I learned how to move images with keys press.</li>
-        <li>I learned more about the collision with images.</li>
-        <li>I realize that making software needs time and long term commitment.</li>
-        <li><span class="important">The most important thing I learned while building Space Invaders is text rending and
-          changing with the user action; AKA Score.</span></li>
-      </ol>
-
+      
       <!-- Pong -->
       <a class="anchor" href="https://janpoonthong.github.io/portfolio/microblog.html#pong"><h2 id="pong" class="subtitle">October 4, 2020</h2></a>
       <img id="images" src="gif/pong.gif" alt="Pong GIF" width="270" height="200">
@@ -86,6 +69,49 @@
         <li>While building Pong, I deeply understand functions, while, and global variables</li>
         <li><span class="important">The most important thing I learned while building Pong is, even a basic module like turtle
           could build one complete game.</span></li>
+      </ol>
+
+      <!-- Space Invaders -->
+      <a class="anchor" href="https://janpoonthong.github.io/portfolio/microblog.html#spaceinvaders"><h2 id="spaceinvaders" class="subtitle">October 1, 2020</h2></a>
+      <img id="images" src="gif/space_invader.gif" alt="Space Invader GIF" width="270" height="200">
+      <a href="https://github.com/JanPoonthong/python/tree/master/pygame/old_space_invaders">
+        <img id="images" src="icon/github.jpg" alt="Github icon" width="32" height="32">
+      </a>
+      <p>Space Invaders is a 1978 arcade game. My version is more modern with a graphics interface and high customizable
+        with background and bullet images, and smooth moving warship.</p>
+      <p>Users can play Space Invaders with just a keyboard. The basic keys are arrows and spaces, the arrows key are for moving,
+        and the spaces key for shooting. Users can see the score on the top left corner, and this game is unwinnable because 
+        of the infinity enemy generator.</p>
+
+      <h4>What I learned:</h4>
+      <ol>
+        <li>I learned how to load background music to play inside the software.</li>
+        <li>I learned how to move images with keys press.</li>
+        <li>I learned more about the collision with images.</li>
+        <li>I realize that making software needs time and long term commitment.</li>
+        <li><span class="important">The most important thing I learned while building Space Invaders is text rending and
+          changing with the user action; AKA Score.</span></li>
+      </ol>
+
+      <!-- Tic Tac Toe -->
+      <a class="anchor" href="https://janpoonthong.github.io/portfolio/microblog.html#tictactoe"><h2 id="tictactoe" class="subtitle">September 30, 2020</h2></a>
+      <img id="images" src="gif/tic_tac_toe.gif" alt="Tic Tac Toe GIF">
+      <a href="https://github.com/JanPoonthong/python/tree/master/pygame/tic_tac_toe">
+        <img id="images" src="icon/github.jpg" alt="Github icon" width="32" height="32">
+      </a>
+      <p>I wrote graphic interface Tic Tac Toe (AI) in Python with Pygame library,
+          and Pygame comes very handly when building games because it has many methods and functions build in.</p>
+      <p>Users can play Tic Tac Toe without any human next to them to play, but instead,
+          they can play with the AI and see if the AI is clever enough to beat the user.</p>
+
+      <h4>What I learned:</h4>
+      <ol>
+        <li>I learned how to design grid boxes, and made the boxes visually easy to select for the user to play.</li>
+        <li>I learned about Frame Per Second in games and the process for refreshing every second rather than using CPU to run the game.</li>
+        <li>I learned about <b>os.path.join</b> so that I didn't need to hardcode the path of picture for X and O.</li>
+        <li>I learned about MOUSEDOWN, collision, and track the state of the game.</li>
+        <li><span class="important">The most important thing I learned while building Tic Tac Toe
+            is thinking logically and reasoning up from fundamental truths.</span></li>
       </ol>
     </main>
   </body>
