@@ -76,13 +76,13 @@ dd {
   margin-left: 1.5em;
 }
 
-/* The stech drawing in contact page */
+/* The sketch drawing in contact page */
 #jan-illustration {
   float: right;
 }
 
 /* Tic Tac Toe GIF in microblog */
-#images {
+.images {
   float: right;
   padding-left: 1em;
   padding-bottom: 0.5em;
