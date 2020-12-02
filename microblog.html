@@ -1,136 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Jan Poonthong</title>
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="images/favicon.png" rel="icon">
-</head>
-
-<body>
-<header>
-    <!-- Nav bar-->
-    <div id="navbar">
-        <a href="index.html" class="navbar-item">Home</a>
-        <a href="software.html" class="navbar-item">Software</a>
-        <a href="microblog.html" class="navbar-item">Microblog</a>
-        <a href="contact.html" class="navbar-item">Contact</a>
-    </div>
-    <div id="info">
-        <h1>Jan Poonthong</h1>
-        <h3>Self-learning software and web development through research & development.</h3>
-    </div>
-</header>
-
-<main>
-    <!-- Hangman -->
-    <a class="anchor" href="https://janpoonthong.github.io/portfolio/microblog.html#hangman"><h2 class="subtitle"
-                                                                                                 id="hangman">
-        October 16, 2020</h2></a>
-    <img alt="Hangman GIF" height="200" class="images" src="gif/hangman.gif" width="270">
-    <a href="https://github.com/JanPoonthong/python/tree/master/pygame/hangman">
-        <img class="images" src="icon/github.jpg" alt="Github icon" width="32" height="32">
-    </a>
-    <p>Hangman is a guessing letters game, the player can only guess one letter at a time to solve the word puzzle.</p>
-
-    <h4>Hacks to win:</h4>
-    <ul>
-        <li><strong>Try guessing the vowels</strong>- A good strategy is to guess a few vowels. With five vowels in the
-            English alphabet,
-            you'll quickly see some word patterns.
-        </li>
-        <li><strong>Etaoin shrdlu</strong>- "Etaoin shrdlu" is just a list of the most common letters used in English,
-            so try to guess these letters.
-        </li>
-    </ul>
-
-    <h4>What I learned:</h4>
-    <ol>
-        <li>I learned how to see patterns and not to use duplicate code.</li>
-        <li>I learned <b>if __name__ == "__main__"</b>.</li>
-        <li>I learned the importance of algorithm, for example; WIDTH / 2 - text.get_width() / 2,
-            HEIGHT / 2 - text.get_height() / 2 = Center of screen
-        </li>
-        <li>While building Hangman, I understand making use of capitalizing variables for constant.</li>
-        <li><span class="important">The most important thing I learned while building Hangman is, how to have a good design for the game
-          and the importance of laying out the step by step process of building.</span></li>
-    </ol>
-
-    <!-- Pong -->
-    <a class="anchor" href="https://janpoonthong.github.io/portfolio/microblog.html#pong"><h2 class="subtitle"
-                                                                                              id="pong">October
-        4, 2020</h2></a>
-    <img alt="Pong GIF" height="200" class="images" src="gif/pong.gif" width="270">
-    <a href="https://github.com/JanPoonthong/python/tree/master/pygame/pong">
-        <img class="images" src="icon/github.jpg" alt="Github icon" width="32" height="32">
-    </a>
-    <p>Pong is a table-tennis-themed arcade video game. The main intention of creating Pong was to play with friends and
-        families.
-        The two paddles return the ball back and forth. The score is kept by the number at the top of the screen.</p>
-    <p>Users can play Pong with just "WS" and "UP / DOWN ARROWS". The wide paddle makes users feel less frustrated. As
-        mentioned,
-        the reason I created Pong was to play with friends and families and have a fun time rather than competing.</p>
-
-    <h4>What I learned:</h4>
-    <ol>
-        <li>I learned how to use the turtle module</li>
-        <li>I learned <b>turtle.ontimer(tick, 10)</b>. So that speed of the ball doesn't depend on the CPU GHz</li>
-        <li>I learned how to keep track of the score</li>
-        <li>While building Pong, I deeply understand functions, while, and global variables</li>
-        <li><span class="important">The most important thing I learned while building Pong is, even a basic module like turtle
-          could build one complete game.</span></li>
-    </ol>
-
-    <!-- Space Invaders -->
-    <a class="anchor" href="https://janpoonthong.github.io/portfolio/microblog.html#spaceinvaders"><h2
-            class="subtitle" id="spaceinvaders">October 1, 2020</h2></a>
-    <img alt="Space Invader GIF" height="200" class="images" src="gif/space_invader.gif" width="270">
-    <a href="https://github.com/JanPoonthong/python/tree/master/pygame/old_space_invaders">
-        <img class="images" src="icon/github.jpg" alt="Github icon" width="32" height="32">
-    </a>
-    <p>Space Invaders is a 1978 arcade game. My version is more modern with a graphics interface and high customizable
-        with background and bullet images, and smooth moving warship.</p>
-    <p>Users can play Space Invaders with just a keyboard. The basic keys are arrows and spaces, the arrows key are for
-        moving,
-        and the spaces key for shooting. Users can see the score on the top left corner, and this game is unwinnable
-        because
-        of the infinity enemy generator.</p>
-
-    <h4>What I learned:</h4>
-    <ol>
-        <li>I learned how to load background music to play inside the software.</li>
-        <li>I learned how to move images with keys press.</li>
-        <li>I learned more about the collision with images.</li>
-        <li>I realize that making software needs time and long term commitment.</li>
-        <li><span class="important">The most important thing I learned while building Space Invaders is text rending and
-          changing with the user action; AKA Score.</span></li>
-    </ol>
-
-    <!-- Tic Tac Toe -->
-    <a class="anchor" href="https://janpoonthong.github.io/portfolio/microblog.html#tictactoe"><h2 class="subtitle"
-                                                                                                   id="tictactoe">
-        September 30, 2020</h2></a>
-    <img alt="Tic Tac Toe GIF" class="images" src="gif/tic_tac_toe.gif">
-    <a href="https://github.com/JanPoonthong/python/tree/master/pygame/tic_tac_toe">
-        <img class="images" src="icon/github.jpg" alt="Github icon" width="32" height="32">
-    </a>
-    <p>I wrote graphic interface Tic Tac Toe (AI) in Python with Pygame library,
-        and Pygame comes very handly when building games because it has many methods and functions build in.</p>
-    <p>Users can play Tic Tac Toe without any human next to them to play, but instead,
-        they can play with the AI and see if the AI is clever enough to beat the user.</p>
-
-    <h4>What I learned:</h4>
-    <ol>
-        <li>I learned how to design grid boxes, and made the boxes visually easy to select for the user to play.</li>
-        <li>I learned about Frame Per Second in games and the process for refreshing every second rather than using CPU
-            to run the game.
-        </li>
-        <li>I learned about <b>os.path.join</b> so that I didn't need to hardcode the path of picture for X and O.</li>
-        <li>I learned about MOUSEDOWN, collision, and track the state of the game.</li>
-        <li><span class="important">The most important thing I learned while building Tic Tac Toe
-            is thinking logically and reasoning up from fundamental truths.</span></li>
-    </ol>
-</main>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <title>Jan Poonthong</title>
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="images/favicon.png" rel="icon">
+    </head>
+    <body>
+        <header>
+            <!-- Nav bar-->
+            <div id="navbar">
+                <a href="index.html" class="navbar-item">Home</a>
+                <a href="software.html" class="navbar-item">Software</a>
+                <a href="microblog.html" class="navbar-item">Microblog</a>
+                <a href="contact.html" class="navbar-item">Contact</a>
+            </div>
+            <div id="info">
+                <h1>Jan Poonthong</h1>
+                <h3>Self-learning software and web development through research & development.</h3>
+            </div>
+        </header>
+        <main>
+            <!-- Hangman -->
+            <a class="anchor" href="https://janpoonthong.github.io/portfolio/microblog.html#hangman">
+                <h2 class="subtitle"
+                    id="hangman">
+                    October 16, 2020
+                </h2>
+            </a>
+            <img alt="Hangman GIF" height="200" class="images" src="gif/hangman.gif" width="270">
+            <a href="https://github.com/JanPoonthong/python/tree/master/pygame/hangman">
+            <img class="images" src="icon/github.jpg" alt="Github icon" width="32" height="32">
+            </a>
+            <p>Hangman is a guessing letters game, the player can only guess one letter at a time to solve the word puzzle.</p>
+            <h4>Hacks to win:</h4>
+            <ul>
+                <li><strong>Try guessing the vowels</strong>- A good strategy is to guess a few vowels. With five vowels in the
+                    English alphabet,
+                    you'll quickly see some word patterns.
+                </li>
+                <li><strong>Etaoin shrdlu</strong>- "Etaoin shrdlu" is just a list of the most common letters used in English,
+                    so try to guess these letters.
+                </li>
+            </ul>
+            <h4>What I learned:</h4>
+            <ol>
+                <li>I learned how to see patterns and not to use duplicate code.</li>
+                <li>I learned <b>if __name__ == "__main__"</b>.</li>
+                <li>I learned the importance of algorithm, for example; WIDTH / 2 - text.get_width() / 2,
+                    HEIGHT / 2 - text.get_height() / 2 = Center of screen
+                </li>
+                <li>While building Hangman, I understand making use of capitalizing variables for constant.</li>
+                <li><span class="important">The most important thing I learned while building Hangman is, how to have a good design for the game
+                    and the importance of laying out the step by step process of building.</span>
+                </li>
+            </ol>
+            <!-- Pong -->
+            <a class="anchor" href="https://janpoonthong.github.io/portfolio/microblog.html#pong">
+                <h2 class="subtitle"
+                    id="pong">October
+                    4, 2020
+                </h2>
+            </a>
+            <img alt="Pong GIF" height="200" class="images" src="gif/pong.gif" width="270">
+            <a href="https://github.com/JanPoonthong/python/tree/master/pygame/pong">
+            <img class="images" src="icon/github.jpg" alt="Github icon" width="32" height="32">
+            </a>
+            <p>Pong is a table-tennis-themed arcade video game. The main intention of creating Pong was to play with friends and
+                families.
+                The two paddles return the ball back and forth. The score is kept by the number at the top of the screen.
+            </p>
+            <p>Users can play Pong with just "WS" and "UP / DOWN ARROWS". The wide paddle makes users feel less frustrated. As
+                mentioned,
+                the reason I created Pong was to play with friends and families and have a fun time rather than competing.
+            </p>
+            <h4>What I learned:</h4>
+            <ol>
+                <li>I learned how to use the turtle module</li>
+                <li>I learned <b>turtle.ontimer(tick, 10)</b>. So that speed of the ball doesn't depend on the CPU GHz</li>
+                <li>I learned how to keep track of the score</li>
+                <li>While building Pong, I deeply understand functions, while, and global variables</li>
+                <li><span class="important">The most important thing I learned while building Pong is, even a basic module like turtle
+                    could build one complete game.</span>
+                </li>
+            </ol>
+            <!-- Space Invaders -->
+            <a class="anchor" href="https://janpoonthong.github.io/portfolio/microblog.html#spaceinvaders">
+                <h2
+                    class="subtitle" id="spaceinvaders">October 1, 2020</h2>
+            </a>
+            <img alt="Space Invader GIF" height="200" class="images" src="gif/space_invader.gif" width="270">
+            <a href="https://github.com/JanPoonthong/python/tree/master/pygame/old_space_invaders">
+            <img class="images" src="icon/github.jpg" alt="Github icon" width="32" height="32">
+            </a>
+            <p>Space Invaders is a 1978 arcade game. My version is more modern with a graphics interface and high customizable
+                with background and bullet images, and smooth moving warship.
+            </p>
+            <p>Users can play Space Invaders with just a keyboard. The basic keys are arrows and spaces, the arrows key are for
+                moving,
+                and the spaces key for shooting. Users can see the score on the top left corner, and this game is unwinnable
+                because
+                of the infinity enemy generator.
+            </p>
+            <h4>What I learned:</h4>
+            <ol>
+                <li>I learned how to load background music to play inside the software.</li>
+                <li>I learned how to move images with keys press.</li>
+                <li>I learned more about the collision with images.</li>
+                <li>I realize that making software needs time and long term commitment.</li>
+                <li><span class="important">The most important thing I learned while building Space Invaders is text rending and
+                    changing with the user action; AKA Score.</span>
+                </li>
+            </ol>
+            <!-- Tic Tac Toe -->
+            <a class="anchor" href="https://janpoonthong.github.io/portfolio/microblog.html#tictactoe">
+                <h2 class="subtitle"
+                    id="tictactoe">
+                    September 30, 2020
+                </h2>
+            </a>
+            <img alt="Tic Tac Toe GIF" class="images" src="gif/tic_tac_toe.gif">
+            <a href="https://github.com/JanPoonthong/python/tree/master/pygame/tic_tac_toe">
+            <img class="images" src="icon/github.jpg" alt="Github icon" width="32" height="32">
+            </a>
+            <p>I wrote graphic interface Tic Tac Toe (AI) in Python with Pygame library,
+                and Pygame comes very handly when building games because it has many methods and functions build in.
+            </p>
+            <p>Users can play Tic Tac Toe without any human next to them to play, but instead,
+                they can play with the AI and see if the AI is clever enough to beat the user.
+            </p>
+            <h4>What I learned:</h4>
+            <ol>
+                <li>I learned how to design grid boxes, and made the boxes visually easy to select for the user to play.</li>
+                <li>I learned about Frame Per Second in games and the process for refreshing every second rather than using CPU
+                    to run the game.
+                </li>
+                <li>I learned about <b>os.path.join</b> so that I didn't need to hardcode the path of picture for X and O.</li>
+                <li>I learned about MOUSEDOWN, collision, and track the state of the game.</li>
+                <li><span class="important">The most important thing I learned while building Tic Tac Toe
+                    is thinking logically and reasoning up from fundamental truths.</span>
+                </li>
+            </ol>
+        </main>
+    </body>
 </html>
