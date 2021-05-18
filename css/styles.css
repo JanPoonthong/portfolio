@@ -1,6 +1,6 @@
 /* Header */
 header {
-  background-color: #C1D9FF;
+  background-color: #c1d9ff;
   padding-top: 1%;
   border-bottom: 2pt solid #647584;
 }
@@ -22,18 +22,18 @@ header {
   justify-content: space-evenly;
 }
 
-.navbar-item{
+.navbar-item {
   text-decoration: none;
 }
 
-.navbar-item:hover{
-color: #438BFF;
+.navbar-item:hover {
+  color: #438bff;
 }
 
 /* Body part, add background color, etc */
 body {
   line-height: 1.35em;
-  background-color: #EAF2F5;
+  background-color: #eaf2f5;
   margin: 0;
   font-family: "Helvetica", sans-serif;
 }
@@ -61,14 +61,14 @@ main {
 
 /* Color the link */
 a:link {
-  color: #3050E7;
+  color: #3050e7;
 }
 
 /* Sub-heading part (Name:, Email:, etc */
 dt {
   font-weight: bold;
-  margin-bottom: .25em;
-  margin-top: .75em;
+  margin-bottom: 0.25em;
+  margin-top: 0.75em;
 }
 
 /* The content of the sub-heading (Jan, Jan Poonthong, etc) */
@@ -97,7 +97,8 @@ table {
   margin-right: auto;
 }
 
-td, th {
+td,
+th {
   border: 1pt solid #268bd2;
   padding-top: 7px;
   text-align: center;
@@ -109,7 +110,7 @@ td a:link:not(:hover) {
 }
 
 th {
-  background-color: #C1D9FF;
+  background-color: #c1d9ff;
   padding-right: 1rem;
   padding-left: 1rem;
 }
@@ -126,5 +127,5 @@ th {
 
 /* For jumping navigation */
 .anchor {
-    text-decoration: none;
+  text-decoration: none;
 }
